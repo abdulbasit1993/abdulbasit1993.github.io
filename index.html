@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Abdul Basit Mehtab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/overlay.css" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <style>
+        .button {
+            position: relative;
+            background-color: #5175C0;
+            border: none;
+            font-size: 20px;
+            color: #FFFFFF;
+            padding: 10px;
+            width: 180px;
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: rgb(155, 168, 155);
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+    </style>
+</head>
+<body>
+    <!--                   Navbar One                  -->
+    <nav class="nav navbar navbar-default animated fadeInDown navbar-one">
+        <div class="mycontainer">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle animated slideInRight" data-toggle="collapse" data-target="#myNavbar1"> <i class="fa fa-bars fa-2x"></i> </button>
+                <a class="navbar-brand animated slideInLeft" href="#cover">
+                    <h2>Portfolio</h2>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar1">
+                <ul class="navbar-right">
+                    <li><a class="animated slideInRight" href="#about-me">About</a></li>
+                    <li><a class="animated slideInRight" href="#services">Services</a></li>
+                    <li><a class="animated slideInRight" href="#works">Projects</a></li>
+                    <li><a class="animated slideInRight" href="#skills">Skills</a></li>
+                    <li><a class="animated slideInRight" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--                   Navbar One ends                 -->
+    <!--                   Cover Start                     -->
+    <section id="cover" data-parallax="scroll" data-speed="0.5" data-image-src="images/header-bg.jpg">
+        <div class="cover-overlay"></div>
+        <div class="animated zoomIn">
+            <img src="images/profile_photo.jpg" class="img-circle" alt="Abdul Basit Mehtab" width="200" height="200">
+            <h1>ABDUL BASIT MEHTAB</h1>
+            <h3>ENTHUSIASTIC, PASSIONATE, AND CREATIVE WEB APP DEVELOPER</h3>
+        </div> <a href="#services" id="down-arrow"><i class="fa fa-angle-down animated flash infinite"></i></a> </section>
+    <!--                   Cover end                   -->
+    <!--                   Navbar two                  -->
+    <nav class="nav navbar navbar-default animated fadeInDown navbar-two">
+        <div class="mycontainer">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle animated slideInRight" data-toggle="collapse" data-target="#myNavbar2"> <i class="fa fa-bars fa-2x"></i> </button>
+                <a class="navbar-brand animated slideInLeft" href="#cover">
+                    <h2>Portfolio</h2>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar2">
+                <ul class="navbar-right">
+                    <li><a id="cov" class="animated slideInRight" href="#about-me">About</a></li>
+                    <li><a id="ser" class="animated slideInRight" href="#services">Services</a></li>
+                    <li><a id="wor" class="animated slideInRight" href="#works">Projects</a></li>
+                    <li><a id="ski" class="animated slideInRight" href="#skills">Skills</a></li>
+                    <li><a id="con" class="animated slideInRight" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--                   Navbar Two ends                    -->
+    <div class="">
+            <section id="about-me" style="background-color: #262626; color: #ddd; height: 500px;">
+                    <div class="mycontainer">
+                        <h1 class="animated" data-animate="slideInUp">ABOUT ME</h1>
+                        <hr class="animated" data-animate="rubberBand">
+                        <p class="animated" data-animate="slideInUp">(Self Introduction)</p>
+                        <h4 class="animated" data-animate="slideInLeft">Welcome! My name is Abdul Basit Mehtab. I have done my Bachelors Degree in Computer Science (BSCS) from University of Karachi (UBIT). I am an enthusiastic, passionate and intermediate experienced Web Application Developer. I am best at HTML, CSS, JavaScript, Bootstrap, WordPress in frontend, and PHP, MySQL in backend. I have the ability to transform wireframes and PSD designs into fully responsive and fully functional web apps using HTML5, CSS3, Bootstrap, and custom WordPress web site designs. My main aim and priority is customer satisfaction and I always aspire to create what my customers have envisioned and also to propel the productivity of the organization while polishing the best of my abilities.</h4>
+                    </div>
+                </section>
+        <!--                   Services start                 -->
+        <section id="services">
+            <div class="mycontainer">
+                <h2 class="animated" data-animate="slideInUp">THIS IS WHAT I DO</h2>
+                <hr class="animated" data-animate="rubberBand">
+                <h3 class="animated" data-animate="slideInUp">Following are some of the major services I currently offer. More to follow soon as I continue to dive deeper in the world of Web and mobile app development.</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="services-card animated" data-animate="fadeInUp"> <img src="images/web-dev.png" alt="web-development" width="60">
+                            <h4>WEB DEVELOPMENT</h4>
+                            <h5>Get your own customised & fully interactive Websites or Portfolios hand coded by me as per the W3C standards. I work till perfection is achieved.</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services-card animated" data-animate="fadeInUp"> <img src="images/responsive.png" alt="responsive" width="60">
+                            <h4>RESPONSIVE DESIGN</h4>
+                            <h5>Get your Websites converted to support all types of viewports and smaller devices, Or you may get a new responsive Website hand crafted by me.</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services-card animated" data-animate="fadeInUp"> <img src="images/timely-delivery.png" alt="timely-delivery" width="60">
+                            <h4>TIMELY DELIVERY</h4>
+                            <h5>I truly believe that time is money and each second counts. So I'll make sure that you get your projects handed over to you within the agreed upon deadlines.</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services-card animated" data-animate="fadeInUp"> <img src="images/psd-to-html.png" alt="psd-to-html" width="60">
+                            <h4>PSD TO HTML</h4>
+                            <h5>Get your Photoshop & Sketch Designs Templates converted to Pixel perfect websites using Tableless and responsive HTML5 & CSS3.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--                   Services ends                 -->
+        <!--                   Works start                    -->
+        <section id="works">
+            <div class="mycontainer">
+                <h2 class="animated" data-animate="slideInUp">MY PROJECTS</h2>
+                <hr class="animated" data-animate="rubberBand">
+                <h3 class="animated" data-animate="slideInUp">Following are the projects that I have worked on so far. Most of these projects were created while following online courses on Udemy and during my past work experience as Internee.</h3>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="grid">
+                            <figure class="effect-julia animated" data-animate="zoomIn"> <img src="images/Sign_repair_nyc.png" alt="sign-repair-nyc">
+                                <figcaption>
+                                    <h2>Sign Repair NYC<span>Site</span></h2>
+                                    <p>This is a sign repair business website based in NYC. Designed from scratch using WordPress.</p> <a href="https://signrepairnyc.com/" target="_blank">Take a look</a> </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="grid">
+                            <figure class="effect-julia animated" data-animate="zoomIn"> <img src="images/FitCulture_Studio.png" alt="fit-culture-studio">
+                                <figcaption>
+                                    <h2>Fit Culture Studio <span>Site</span></h2>
+                                    <p>This is a fitness studio business website. Made from scratch using WordPress.</p> <a href="http://fitculturestudio.ppllabs.com/" target="_blank">Take a look</a> </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="grid">
+                            <figure class="effect-julia animated" data-animate="zoomIn"> <img src="images/Long_island_sign.png" alt="Long-island-sign">
+                                <figcaption>
+                                    <h2>Long Island Sign <span>Site</span></h2>
+                                    <p>This is an electronic sign installation and repair business website. Made from scratch using WordPress. </p> <a href="https://longislandsigninstallation.com/" target="_blank">Take a look</a> </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="grid">
+                            <figure class="effect-julia animated" data-animate="zoomIn"> <img src="images/AB-Tech.png" alt="AB-Tech">
+                                <figcaption>
+                                    <h2>AB Tech <span>Bootstrap Site</span></h2>
+                                    <p>A sample fully responsive website built using the Bootstrap CSS Framework.</p> <a href="https://abdulbasit1993.github.io/ABTech-Bootstrap/" target="_blank">Take a look</a> </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="grid">
+                            <figure class="effect-julia animated" data-animate="zoomIn"> <img src="images/Calculator-WebApp.png" alt="Calculator-WebApp">
+                                <figcaption>
+                                    <h2>Calculator <span>Web App</span></h2>
+                                    <p>Calculator Web App written using JavaScript, HTML and CSS.</p> <a href="https://abdulbasit1993.github.io/Calculator-WebApp/" target="_blank">Take a look</a> </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="grid">
+                            <figure class="effect-julia animated" data-animate="zoomIn"> <img src="images/Coming_soon.png" alt="coming-soon">
+                                <figcaption>
+                                    <h2>Coming <span>soon</span></h2>
+                                    <p>More projects coming soon.</p> <a href="#">Take a look</a> </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--                   Works end                  -->
+        <!--                   Skills start                   -->
+        <section id="skills">
+            <div class="mycontainer">
+                <h2 class="animated" data-animate="slideInUp">MY SKILLS</h2>
+                <hr class="animated" data-animate="rubberBand">
+                <h3 class="animated" data-animate="slideInUp">Here are some of the Frontend development related skills that I currently possess. (Backend skills are still in beginner stage.)</h3>
+                <div class="row">
+                    <div class="col-sm-4 animated" data-animate="zoomIn"> <img src="images/html5.svg" alt="html5" width="100"> </div>
+                    <div class="col-sm-4 animated" data-animate="zoomIn"> <img src="images/css3.svg" alt="css3" width="100"> </div>
+                    <div class="col-sm-4 animated" data-animate="zoomIn"> <img src="images/javascript.svg" alt="javascript" width="100"> </div>
+                    <div class="col-sm-4 animated" data-animate="zoomIn"> <img src="images/boostrap.svg" alt="bootstrap" width="100"> </div>
+                    <div class="col-sm-4 animated" data-animate="zoomIn"> <img src="images/wordpress.svg" alt="wordpress" width="100"> </div>
+                    <div class="col-sm-4 animated" data-animate="zoomIn"> <img src="images/jquery.svg" alt="jquery" width="100"> </div>
+                    <div class="col-sm-4 animated" data-animate="zoomIn"> <img src="images/github.svg" alt="github" width="100"> </div>
+                    <div class="col-sm-4 animated" data-animate="zoomIn"> <img src="images/php.svg" alt="php" width="160"> </div>
+                    <div class="col-sm-4 animated" data-animate="zoomIn"> <img src="images/android.svg" alt="android" width="100"> </div>
+                </div>
+            </div>
+        </section>
+        <!--                   Skills end                 -->
+        <!--                   Hire-me starts                 -->
+        <section id="hire-me">
+            <div class="mycontainer">
+                <h3 class="animated" data-animate="slideInUp">ARE YOU READY TO START?</h3>
+                <h4 class="animated" data-animate="slideInUp">I'm available for hiring.</h4> <a href="#contact" class="btn btn-default animated" data-animate="slideInUp">Hire Me</a> </div>
+        </section>
+        <!--                   Hire-me ends                   -->
+        <!--                   Contacts start                 -->
+        <section id="contact" style="height: 500px;">
+            <div class="mycontainer">
+                <h2 class="animated" data-animate="slideInUp">Let's Get in Touch!</h2>
+                <hr class="animated" data-animate="rubberBand">
+                <h3 class="animated" data-animate="slideInUp">Need a Web App Developer? Ready to work!</h3>
+                <br><br><br>
+                    <div class="col-lg-4 col-lg-offset-2 text-center wow rubberBand">
+                        <i class="glyphicon glyphicon-phone contact-earphone" style="font-size: 45px;"></i>
+                        <p class="contact-detail">+92-321-2257780</p>
+                    </div>
+                    <div class="col-lg-4 text-center wow rubberBand">
+                        <i class="glyphicon glyphicon-envelope contact-message" style="font-size: 45px;"></i>
+                        <p><a href="mailto:abasitm.1993@gmail.com" class="email-contact">abasitm.1993@gmail.com</a></p>
+                    </div>
+                    
+                    <div class="col-lg-12">
+                        <br>
+                        <a href='https://drive.google.com/file/d/18IZtr8Ie8GDy0b5ktthhgf_1EZg5IW-_/view?usp=sharing' target="_blank"><button class="button">View My CV</button></a>
+                    </div>
+            </div>
+        </section>
+        <!--                   Contacts end                   -->
+        <!--                   Footer start                   -->
+        <footer>
+            <ul>
+                <li class=" animated" data-animate="slideInUp"><a href="https://www.facebook.com/ABM93.Official" target="_blank"><i class="fa fa-2x fa-facebook"></i></a></li>
+                <li class=" animated" data-animate="slideInUp"><a href="https://twitter.com/abasitm1993" target="_blank"><i class="fa fa-2x fa-twitter"></i></a></li>
+                <li class=" animated" data-animate="slideInUp"><a href="https://www.instagram.com/abdulbasitmehtab93/" target="_blank"><i class="fa fa-2x fa-instagram"></i></a></li>
+                <li class=" animated" data-animate="slideInUp"><a href="https://linkedin.com/in/abdulbasit1993" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a></li>
+                <li class=" animated" data-animate="slideInUp"><a href="https://github.com/abdulbasit1993" target="_blank"><i class="fa fa-2x fa-github"></i></a></li>               
+            </ul>
+            <h4 class="animated" data-animate="slideInUp">Designed with <i class="fa fa-heart fa-lg animated pulse infinite"></i> by <a style="color: white;" target="_blank" href="https://github.com/abdulbasit1993/">abdulbasit1993</a></a></h4>
+            <h4 class="animated" data-animate="slideInUp">Copyright © 2019 Abdul Basit Mehtab</h4>
+        </footer>
+        <!--                   Footer ends                    -->
+        <!--                   All scripts                 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-102929420-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </div>
+</body>
+
+</html>
+<!--Design Inspiration-->
+<!--http://scripteden.com/download/clean-one-page-personal-portfolio-template/-->
+<!--http://www.picseel.com/themes/planus/-->
